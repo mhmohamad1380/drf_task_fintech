@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitCoin Price(CMC)</title>
+</head>
+
+<body>
+    <div style="border: 1px solid black;">
+        <center>
+            <p>
+                Name: {{ btc_price.coin_name }}
+            </p><br>
+            <p>
+                Source: {{ btc_price.coin_price_source }}
+            </p><br>
+            <p>
+                Price: {{ btc_price.coin_price }}
+            </p><br>
+            <p>
+                Date Added: {{ btc_price.coin_date_added }}
+            </p><br>
+            <p>
+                Date Changed: {{ btc_price.coin_date_changed }}
+            </p>
+        </center>
+    </div>
+</body>
+
+</html>
