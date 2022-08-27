@@ -19,13 +19,6 @@
 
 ## Note
 <h3  align="center">this Project uses Celery Beat to get Bitcoin Price every 20 seconds, which You can change this time inside django Settings</h3>
-```python
-CELERY_BEAT_SCHEDULE = {
-    'get_btc_price': {
-        "task": "main.tasks.get_btc_price_from_cbc",
-        "schedule": 20,
-    }
-}
-```
+
 
 ### Good Luck
