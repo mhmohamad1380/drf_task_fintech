@@ -18,12 +18,12 @@
 4. ```api/coin/edit/<pk>``` to edit a bitcoin price record with pk=pk<br/>
 
 ## Note
-<h3  align="center">this Project uses Celery Beat to get Bitcoin Price every 20 seconds, which You can change this time inside django Settings,
+<h3  align="center">this Project uses Celery Beat to get Bitcoin Price every 20 seconds, which You can change this time inside django Settings</h3>
 ```CELERY_BEAT_SCHEDULE = {
     'get_btc_price': {
         "task": "main.tasks.get_btc_price_from_cbc",
         "schedule": 20,
     }
-}```</h3>
+}```
 
 ### Good Luck
