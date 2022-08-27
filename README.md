@@ -25,6 +25,7 @@ CELERY_BEAT_SCHEDULE = {
         "task": "main.tasks.get_btc_price_from_cbc",
         "schedule": 20,
     }
-}```
+}
+```
 
 ### Good Luck
